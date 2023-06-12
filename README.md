@@ -13,4 +13,6 @@ include all the .npy files of the dataset under `pcg/` for the code to work prop
 
 Code for creating plots and code for dataset analysis are found in the other notebooks.
 
-All result figures (and some more) are included in the `Results` folder as pdfs. This folder also contains some trials from hyperparameter optimization.
+All result figures (and some more) are included in the `Results` folder as pdfs. This folder also contains some trials from hyperparameter optimization and final evaluation results stored as pikled files.
+
+The fuctions for loading the data (with normilization and resampling) and labels are in the `load_and_preprocessing_functions.py` file, and all functions for the model pipeline are in `cv_and_classification_functions.py`. 
