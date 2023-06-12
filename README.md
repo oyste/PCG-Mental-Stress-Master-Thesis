@@ -16,3 +16,5 @@ Code for creating plots and code for dataset analysis are found in the other not
 All result figures (and some more) are included in the `Results` folder as pdfs. This folder also contains some trials from hyperparameter optimization and final evaluation results stored as pikled files.
 
 The fuctions for loading the data (with normilization and resampling) and labels are in the `load_and_preprocessing_functions.py` file, and all functions for the model pipeline are in `cv_and_classification_functions.py`. 
+
+To access all the multimodal data (both EEG, PCG and arithmetic test markers), follow this link: https://www.dropbox.com/sh/vsd0tsee8e4bs9g/AADc_3osMTPmIom3Dv4Pubera?dl=0
